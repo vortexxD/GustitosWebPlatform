@@ -26,9 +26,8 @@ public partial class GustitosDbContext : DbContext
 
     public virtual DbSet<Producto> Productos { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { 
+    
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

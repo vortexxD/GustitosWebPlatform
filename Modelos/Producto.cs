@@ -15,6 +15,8 @@ public partial class Producto
 
     public int IdCategoria { get; set; }
 
+    public int? Cantidad { get; set; }
+
     public virtual Categoria IdCategoriaNavigation { get; set; } = null!;
 
     public virtual ICollection<Ordene> Ordenes { get; } = new List<Ordene>();
