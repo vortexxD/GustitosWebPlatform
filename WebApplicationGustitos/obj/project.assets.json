@@ -1129,6 +1129,9 @@
       "Interfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Modelos": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Interfaces.dll": {}
         },

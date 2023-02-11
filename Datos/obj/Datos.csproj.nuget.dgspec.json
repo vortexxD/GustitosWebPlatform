@@ -105,7 +105,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\jorka\\source\\repos\\GustitosDeLaSelva\\GustitosWebPlatform\\Modelos\\Modelos.csproj": {
+                "projectPath": "C:\\Users\\jorka\\source\\repos\\GustitosDeLaSelva\\GustitosWebPlatform\\Modelos\\Modelos.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
